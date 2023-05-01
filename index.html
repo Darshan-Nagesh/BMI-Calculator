@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="bmi">
+      <h2>Body Mass Index Calculator</h2>
+      <p class="text">Height (cm)</p><input type="text" id="height">
+      <p class="text">Weight (kg)</p><input type="text" id="weight">
+      <p id="result"></p><button id="btn">Calculate</button>
+    </div>
+    <div>
+      <table>
+          <tr>
+            <th>BMI</th>
+            <th>Category</th>
+          </tr>
+          <tr>
+            <td>Less than 18.5</td>
+            <td>Underweight</td>
+          </tr>
+          <tr>
+            <td>Between 18.5 and 24.9</td>
+            <td>Ideal</td>
+          </tr>
+          <tr>
+            <td>Between 25 and 29.9</td>
+            <td>Overweight</td>
+          </tr>
+          <tr>
+            <td>Over 30 </td>
+            <td>Obesity</td>
+          </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+    <footer class="footer">
+      <p>Darshan N</p>
+      <p><a href="https://github.com/Darshan-Nagesh" class="footer__icon"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" width="20px" height="20px"></a></p>
+     </footer>
+  </body>
+</html>
