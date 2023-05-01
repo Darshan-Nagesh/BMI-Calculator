@@ -13,4 +13,5 @@ Body mass index is a value derived from the mass and height of a person.
 2. Open the downloaded folder and run index.html file in any browser.
 3. Hurray! That's it!
 
-https://github.com/Darshan-Nagesh/BMI-Calculator/blob/main/BMI.png?raw=true
+![dis](https://github.com/Darshan-Nagesh/BMI-Calculator/blob/main/BMI.png?raw=true)
+
